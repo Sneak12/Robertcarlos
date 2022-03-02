@@ -1,0 +1,46 @@
+
+
+div{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    transition: all 2s;
+    animation-name: colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+div:hover{
+background-color: green;
+transform:translate(120px , 200px)
+}
+
+/* 
+img{
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: fill;
+}
+*/
+
+
+
+@keyframes colores{
+
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: blue;
+    }
+
+    75%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: yellow;
+    }
+}
